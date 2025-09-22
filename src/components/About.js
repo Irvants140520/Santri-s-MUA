@@ -11,7 +11,7 @@ const About = () => {
           <div className="relative">
             <div className="about-image-container">
               <img
-                src="/frontend/src/data/img/andin.jpg"
+                src="/img/andin.jpg"
                 alt={`${brandData.name} - ${aboutData.owner} professional makeup artist`}
                 className="about-main-image"
               />

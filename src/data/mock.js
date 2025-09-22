@@ -52,32 +52,32 @@ export const portfolioData = [
     id: 1,
     title: "Makeup Wisuda Natural",
     category: "wisuda",
-    beforeImage: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=400&fit=crop",
-    afterImage: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop",
+    beforeImage: "/img/zulfa-before.jpg",
+    afterImage: "/img/zulfa-after2.jpg",
     description: "Fresh natural look untuk wisuda"
   },
   {
     id: 2,
     title: "Bridal Makeup Elegan",
     category: "wedding",
-    beforeImage: "https://images.unsplash.com/photo-1494790108755-2616c04840d1?w=400&h=400&fit=crop",
-    afterImage: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=400&fit=crop",
+    beforeImage: "/img/hanun-before.jpg",
+    afterImage: "/img/hanun-before.jpg",
     description: "Makeup prewedding romantis dan timeless"
   },
   {
     id: 3,
     title: "Party Makeup Glamour",
     category: "party",
-    beforeImage: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=400&fit=crop",
-    afterImage: "https://images.unsplash.com/photo-1506629905607-45cf44006593?w=400&h=400&fit=crop",
+    beforeImage: "/img/putri-before.jpg",
+    afterImage: "/img/putri-after.jpg",
     description: "Bold dan stunning untuk acara malam"
   },
   {
     id: 4,
     title: "Photoshoot Professional",
     category: "photoshoot",
-    beforeImage: "https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?w=400&h=400&fit=crop",
-    afterImage: "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&h=400&fit=crop",
+    beforeImage: "/img/khusnita-before.jpg",
+    afterImage: "/img/khusnita-after.jpg",
     description: "Camera-ready makeup untuk portfolio"
   }
 ];
@@ -95,7 +95,7 @@ export const testimonialsData = [
     id: 2,
     name: "Ayu Maharani",
     role: "Bride-to-be",
-    content: "Kak Glam Touch bener-bener ngerti apa yang aku mau. Makeup preweddingnya romantic banget dan cocok sama tema foto kami. Terima kasih!",
+    content: "Kak Andin bener-bener ngerti apa yang aku mau. Makeup preweddingnya romantic banget dan cocok sama tema foto kami. Terima kasih!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108755-2616c04840d1?w=100&h=100&fit=crop"
   },
@@ -103,7 +103,7 @@ export const testimonialsData = [
     id: 3,
     name: "Dinda Sari",
     role: "Event Organizer",
-    content: "Sudah beberapa kali pake jasa Glam Touch untuk klien kami. Selalu professional, on time, dan hasilnya memuaskan. Recommended!",
+    content: "Sudah beberapa kali pake jasa Santri MUA. Selalu professional, on time, dan hasilnya memuaskan. Recommended!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop"
   }
@@ -128,7 +128,7 @@ export const faqData = [
   {
     id: 4,
     question: "Area coverage untuk home service?",
-    answer: "Kami melayani area Yogyakarta dan sekitarnya (Sleman, Bantul). Untuk area di luar itu ada tambahan transport fee yang reasonable."
+    answer: "Kami melayani area Yogyakarta dan sekitarnya (Sleman, Bantul, Kulon Progo, Gunung Kidul). Untuk area di luar itu ada tambahan transport fee yang reasonable."
   },
   {
     id: 5,
@@ -145,7 +145,7 @@ export const faqData = [
 export const aboutData = {
   name: brandData.name,
   owner: brandData.owner,
-  description: `Hai! Saya ${brandData.owner}, makeup artist berpengalaman 5+ tahun di Yogyakarta yang passionate dalam menciptakan makeup natural dan elegan. Dengan pengalaman menangani 500+ klien untuk berbagai acara spesial, saya memahami kebutuhan setiap klien untuk tampil percaya diri.\n\nSaya menggunakan produk-produk premium dan teknik profesional untuk memastikan makeup tidak hanya cantik, tapi juga tahan lama dan aman untuk kulit. Setiap klien adalah prioritas, dan kepuasan Anda adalah kebanggaan saya.`,
+  description: `Hai! Saya ${brandData.owner}, \n\n makeup artist berpengalaman 5+ tahun di Yogyakarta yang passionate dalam menciptakan makeup natural dan elegan. Dengan pengalaman menangani 500+ klien untuk berbagai acara spesial, saya memahami kebutuhan setiap klien untuk tampil percaya diri.\n\nSaya menggunakan produk-produk premium dan teknik profesional untuk memastikan makeup tidak hanya cantik, tapi juga tahan lama dan aman untuk kulit. Setiap klien adalah prioritas, dan kepuasan Anda adalah kebanggaan saya.`,
   experience: "5+ Tahun Pengalaman",
   clients: "500+ Klien Puas",
   specializations: ["Natural Makeup", "Bridal Makeup", "Editorial Makeup", "Special Effects"],
