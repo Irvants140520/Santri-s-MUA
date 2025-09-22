@@ -60,8 +60,8 @@ export const portfolioData = [
     id: 2,
     title: "Bridal Makeup Elegan",
     category: "wedding",
-    beforeImage: "/img/hanun-before.jpg",
-    afterImage: "/img/hanun-before.jpg",
+    beforeImage: "/img/hanun-before.webp",
+    afterImage: "/img/hanun-after.jpg",
     description: "Makeup prewedding romantis dan timeless"
   },
   {
@@ -69,7 +69,7 @@ export const portfolioData = [
     title: "Party Makeup Glamour",
     category: "party",
     beforeImage: "/img/putri-before.jpg",
-    afterImage: "/img/putri-after.jpg",
+    afterImage: "/img/putri-afrer.jpg",
     description: "Bold dan stunning untuk acara malam"
   },
   {
@@ -77,7 +77,7 @@ export const portfolioData = [
     title: "Photoshoot Professional",
     category: "photoshoot",
     beforeImage: "/img/khusnita-before.jpg",
-    afterImage: "/img/khusnita-after.jpg",
+    afterImage: "/img/khusnita-after.webp",
     description: "Camera-ready makeup untuk portfolio"
   }
 ];
