@@ -62,7 +62,7 @@ const Hero = () => {
           <div className="relative">
             <div className="hero-image-container">
               <img
-                src="/frontend/src/data/img/zulfa-before.jpg"
+                src="/img/zulfa-after2.jpg"
                 alt="Santri's Makeup Artist - Professional makeup result"
                 className="hero-image"
               />
